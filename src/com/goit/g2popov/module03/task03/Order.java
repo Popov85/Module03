@@ -69,4 +69,11 @@ public class Order {
         public void changeStateOfStoreHouse() {
 
         }
+        /*TODO
+          Will change the state of Cash Desk once an order is paid and shipped
+          and when a new batch of instruments arrives.
+        */
+        public void changeStateOfCashDesk() {
+
+        }
 }

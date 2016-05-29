@@ -32,4 +32,18 @@ public class Supply {
         public void setItems(List<SupplyItem> items) {
                 this.items = items;
         }
+        /*TODO
+         Will change the state of StoreHouse when an order is paid and shipped
+         and when a new batch of instruments arrives.
+       */
+        public void changeStateOfStoreHouse() {
+
+        }
+        /*TODO
+          Will change the state of Cash Desk once an order is paid and shipped
+          and when a new batch of instruments arrives.
+        */
+        public void changeStateOfCashDesk() {
+
+        }
 }
