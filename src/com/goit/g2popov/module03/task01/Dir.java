@@ -1,5 +1,6 @@
 ﻿package com.goit.g2popov.module03.task01;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -7,8 +8,12 @@ import java.util.List;
  */
 public class Dir extends File {
         private List<File> files;
-        // Signifies if the directory is actually the root (disk C:/, D:/ etc.)
+        // Signifies if the directory is actually the root (disk C:/, D:/, etc.)
         private boolean ifRoot=false;
+
+        public Dir () {
+               files = new ArrayList<File>();
+        }
 
         public void setFiles(List<File> files) {
                 this.files = files;
